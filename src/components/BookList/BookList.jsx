@@ -12,11 +12,6 @@ const BookList = ({ books, deleteBook }) => {
         </div>
       ))}
     </div>
-    // <ul className={styles.list}>
-    //   {books.map((book) => (
-    //     <BookItem key={book.id} book={book} deleteBook={deleteBook} />
-    //   ))}
-    // </ul>
   );
 };
 
